@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <nav class="nav bd_grid">
+        <div>
+          <a href="#" class="nav_logo">Portfolio</a>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_items">
+              <a href="#home" class="nav_link active">HOME</a>
+            </li>
+            <li class="nav_items">
+              <a href="#about" class="nav_link active">ABOUT</a>
+            </li>
+            <li class="nav_items">
+              <a href="#skills" class="nav_link active">SKILLS</a>
+            </li>
+            <li class="nav_items">
+              <a href="#work" class="nav_link active">PROJECTS</a>
+            </li>
+            <li class="nav_items">
+              <a href="#contact" class="nav_link active">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav_toggle">
+          <i class="bx bx-menu-alt-right"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- HOME SECTION -->
+      <section class="home bd_grid" id="home">
+        <div class="home_data" data-aos="fade-down">
+          <h1 class="home_title">
+            Hello, <br />My name is <br> <span class="home_title-color">Lasya Priya</span
+            ><br /><span class="web">I am a Web Designer</span>
+          </h1>
+          <a href="LASYA_RESUME.pdf" class="button"> Download Resume</a>
+        </div>
+        <div class="home_social">
+          
+          <a
+            href="https://www.instagram.com/___lasya_priya/"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="250"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://twitter.com/__lasya_priya"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a
+            href="https://github.com/lasyapriya2910"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="350"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+        <div class="home_img" data-aos="fade-left" data-aos-delay="350">
+          <img src="WhatsApp Image 2023-07-27 at 17.54.57.jpeg" alt="Your Image" >
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="about section" id="about">
+        <h2 class="section-title" data-aos="fade-down">ABOUT</h2>
+
+        <div class="about_container bd_grid">
+          <div class="about_img">
+            <img src="img1.jpg" alt="" data-aos="fade-down">
+          </div>
+
+          <div>
+            <h2
+              class="about_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="350"
+            >
+              I'm Lasya Priya Aurpally
+            </h2>
+            <p class="about_text" data-aos="fade-down" data-aos-delay="450">
+              My name is Lasya Priya, I am a CSE undergraduate from CMR Institute of Technologhy, Hyderabad.I have a good amount of knowlegde in the programming languages such as C, C++, Python and Java.
+              I have a personal interest on web development (website designing).I have also completed some certifications on the above mentioned programming languages. Currently
+              I'm working on full stack web developement and trying to improve my skills each day.
+          </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title" data-aos="fade-down">SKILLS</h2>
+
+        <div class="skills_container bd_grid">
+          <div>
+            <h2
+              class="skills_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="250"
+            >
+              Professional Skills
+            </h2>
+            
+            <!-- SKILLS HTML -->
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="bx bxl-html5 skill_icon"></i>
+                <span class="skill_name">Html5</span>
+              </div>
+
+              <div><span class="skill_percentage">90%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-- SKILLS css -->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-css3 skill_icon"></i>
+                <span class="skill_name">CSS3</span>
+              </div>
+
+              <div><span class="skill_percentage">75%</span></div>
+
+              <div class="skill_bar skill_css"></div>
+            </div>
+
+            <!-- SKILLS JS -->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-javascript skill_icon"></i>
+                <span class="skill_name">JS</span>
+              </div>
+
+              <div><span class="skill_percentage">65%</span></div>
+
+              <div class="skill_bar skill_js"></div>
+            </div>
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxs-Python skill_icon"></i>
+                <span class="skill_name">Python</span>
+              </div>
+
+              <div><span class="skill_percentage">75%</span></div>
+
+              <div class="skill_bar skill_python"></div>
+            </div>
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxs-java8 skill_icon"></i>
+                <span class="skill_name">Java</span>
+              </div>
+
+              <div><span class="skill_percentage">55%</span></div>
+
+              <div class="skill_bar skill_java"></div>
+            </div>
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxs-Python skill_icon"></i>
+                <span class="skill_name">C/C++</span>
+              </div>
+
+              <div><span class="skill_percentage">75%</span></div>
+
+              <div class="skill_bar skill_c"></div>
+            </div>
+            
+          </div>
+
+          <div data-aos="fade-left" data-aos-delay="350">
+            
+        </div>
+      </section>
+
+      <!-- WORK SECTION -->
+      <div id="work">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-down">MY WORK</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="travel.png">
+              <div class="layer">
+                <h3>Travel blog website using HTML,CSS & JS</h3>
+                <p>This website has my travel diaries</p>
+                <a href="https://lasyapriya2910.github.io/travel-blog/">Link</a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="assistant.png">
+              <div class="layer">
+                <h3>The Desktop Assistant</h3>
+                <p>It is a virtual assistant, which takes voice commands and gives the output.</p>
+                <a href="https://github.com/lasyapriya2910/Desktop-Assistant">Link</a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="password-generator.jpg">
+              <div class="layer">
+                <h3>password-generator</h3>
+                <p>This websiteis developed using HTML,CSS and JS, which can generate a random password.</p>
+                <a href="https://lasyapriya2910.github.io/password-generator/">Link</a>
+              </div>
+            </div>
+          </div>
+    
+          </div>
+          <div data-aos="fade-left" data-aos-delay="350"></div>
+        </div>
+
+      <!-- CONTACT SECTION -->
+
+      <section id="contact">
+        <div class="contact container">
+          <div>
+            <h1 class="section-title" data-aos="fade-down">CONTACT INFO</h1>
+          </div>
+          <div
+          class="contact_container bd_grid"
+          data-aos="fade-down"
+          data-aos-delay="250"
+        >
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+              <div class="contact-info">
+                <h1>Phone</h1>
+                <h2>+91 9989554985</h2>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+              <div class="contact-info">
+                <h1>Email</h1>
+                <h2>lasyapriyaauraplly@gmail.com.com</h2>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+              <div class="contact-info">
+                <h1>Address</h1>
+                <h2>16-2-790, 302, Manju Silver Towers, Shankeshwar bazar, 500060, Hyderabad, Telangana.</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <section id="footer">
+        <div class="footer container">
+          <div class="brand">
+            <h1>Lasya Priya</h1>
+          </div>
+          <div class="social-icon">
+            <div class="social-item">
+                <a href="https://twitter.com/__lasya_priya"><img src="twitter.png"/></a>
+            </div>
+            <div class="social-item">
+                <a href="https://www.linkedin.com/in/lasyapriyaaurpally/"><img src="linkedin.png"/></a>
+            </div>
+            <div class="social-item">
+                <a href="https://github.com/lasyapriya2910"><img src="github.png"/></a>
+            </div>
+          </div>
+          <p>Created By <a href="#">Lasya Priya</a> 2023 <span>&copy;</span> All rights reserved </p>
+    
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1200,
+        once: false,
+      });
+    </script>
+  </body>
+</html>
